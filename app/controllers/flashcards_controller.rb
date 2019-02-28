@@ -46,6 +46,6 @@ class FlashcardsController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def flashcard_params
-      params.fetch(:flashcard, {})
+      params.require(:flashcard).permit(:category, :question, :answer)
     end
 end
