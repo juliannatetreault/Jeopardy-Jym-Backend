@@ -18,9 +18,9 @@ To use the Jeopardy Jym, a user must first install the application onto their lo
 - Execute `$bundle` to install gems
 - Execute `$rake db:migrate` to migrate the database
 - Execute `$rake db:seed` to access seed data 
-- Execute `rails s -p 3000` to start the server 
+- Execute `rails s -p 5000` to start the server 
 
-Finally, navigate to `http://localhost:3000/`.
+Finally, navigate to `http://localhost:5000/`.
 
 
 ## Contributing
